@@ -1,4 +1,4 @@
- #include<stdio.h>
+#include<stdio.h>
 #include<stdlib.h>
 
 /*les principale operations pour creer un arbre:
@@ -9,7 +9,7 @@
 5) Parcours de l arbre 
 */
 // definir la structure de nœud
-typedef struct{
+typedef struct Node{
 	int data;
 	struct Node *leftChild;
 	struct Node *rightChild;
