@@ -1,5 +1,9 @@
-## To compile this project run:
+## To compile and run this project run:
 
 ```bash
-gcc -c QueueT.c -o QueueT.o && gcc Tree.c QueueT.o -o Tree.out
+gcc -c QueueT.c -o QueueT.o 
+gcc Tree.c QueueT.o -o Tree.out
+./Tree.out
 ```
+
+
